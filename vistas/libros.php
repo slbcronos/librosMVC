@@ -11,7 +11,7 @@
     <ul>
       <?php
         foreach ($datos as $valor) {
-            print "<li>".$valor["titulo"]." | ".$valor["autor"]."</li>" ;
+            print "<li>".$valor["titulo"]." | ".$valor["autor"]." | ".$valor["editorial"]."</li>" ;
         }
       ?>
     </ul>
